@@ -156,3 +156,4 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
 .floating-whatsapp:after{display:none}
 .floating-whatsapp{width:46px;height:46px}.floating-whatsapp>[data-icon]{width:46px;height:46px;font-size:22px}.floating-whatsapp:before{inset:-5px;border-width:2px}
 @media(max-width:560px){.floating-whatsapp{width:42px;height:42px}.floating-whatsapp>[data-icon]{width:42px;height:42px;font-size:21px}}
+.mini-brand{gap:7px}
