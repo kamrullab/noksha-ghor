@@ -112,3 +112,9 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
   .contact h2{font-size:34px}.phone-grid{margin-block:12px}.phone-card{padding:9px}.map-wrap iframe{height:250px}
 }
 @media(max-width:850px){.services-wrap,.team,.construction,.details-band,.religious-design,.contact{min-height:0;height:auto}}
+
+/* Balanced left and right breathing room */
+@media(min-width:851px){.hero:before{inset:28px 48px}.nav{padding-inline:18px}.hero-inner{width:min(1080px,calc(100% - 120px))}.services-wrap>.container,.team>.container,.construction>.container,.details-band>.container,.religious-design>.container,.contact>.container{padding-inline:18px}}
+@media(min-width:1440px){.hero:before{inset-inline:58px}.nav{padding-inline:24px}.services-wrap>.container,.team>.container,.construction>.container,.details-band>.container,.religious-design>.container,.contact>.container{padding-inline:24px}}
+@media(max-width:850px){.hero:before{inset:14px 16px}.nav{padding-inline:4px}}
+@media(max-width:390px){.hero:before{inset:10px}.container{width:calc(100% - 26px)}}
