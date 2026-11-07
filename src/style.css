@@ -132,7 +132,6 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
 @media(max-width:560px){.gallery-links{inset:6% 2%;width:96%;height:88%}.link-path{stroke-width:1}.gallery-center:after{inset:-7px}}
 @media(prefers-reduced-motion:reduce){.link-path,.hex,.gallery-center,.gallery-center:after{animation:none}}
 
-/* Brand home icons positioned on the right */
-.hero-title-row{position:relative;display:inline-block}.hero-title-row .brand-mark{position:absolute;width:58px;right:-52px;top:-26px;margin:0;transform:none}.mini-brand{flex-direction:row}.mini-brand .mini-roof{margin-left:2px}
-@media(max-width:560px){.hero-title-row .brand-mark{width:43px;right:-35px;top:-18px}}
-@media(max-width:390px){.hero-title-row .brand-mark{width:38px;right:-28px;top:-15px}}
+/* House icons removed, all other UI preserved */
+.religious-offer{grid-template-columns:1fr auto}.religious-offer>div{justify-items:center}.mini-brand{gap:0}
+@media(max-width:560px){.religious-offer{grid-template-columns:1fr}}

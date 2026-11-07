@@ -8,7 +8,6 @@ import { TbRulerMeasure, TbBuildingSkyscraper, TbHomeCog } from 'react-icons/tb'
 import { BsBadge3D } from 'react-icons/bs';
 import { LuClipboardCheck } from 'react-icons/lu';
 
-const RoofIcon = () => <svg className="custom-roof-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 31 32 8l26 23"/><path d="M14 28v28h36V28M26 56V39h12v17"/></svg>;
 const BlueprintIcon = () => <svg className="custom-blueprint-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 12h48v40H8zM16 44l10-14 8 8 7-11 9 17M20 20h12M20 25h20"/><circle cx="47" cy="19" r="4"/></svg>;
 const LiveConstructionAnimation = () => (
   <svg className="live-build" viewBox="0 0 640 430" role="img" aria-label="ক্রেন দিয়ে ধাপে ধাপে ভবন নির্মাণ হচ্ছে">
@@ -42,7 +41,7 @@ const LiveConstructionAnimation = () => (
     <g className="status-pill"><rect x="438" y="345" width="165" height="48" rx="24" fill="#101e58"/><circle cx="462" cy="369" r="8" fill="#39d98a"/><text x="480" y="376" fill="#fff" fontFamily="Hind Siliguri" fontSize="20">নির্মাণ চলছে</text></g>
   </svg>
 );
-const icons = { roof: RoofIcon, engineer: FaUserTie, mosque: FaMosque, phone: FaPhoneAlt, call: MdCall, whatsapp: FaWhatsapp, location: FaMapMarkerAlt, blueprint: BlueprintIcon };
+const icons = { engineer: FaUserTie, mosque: FaMosque, phone: FaPhoneAlt, call: MdCall, whatsapp: FaWhatsapp, location: FaMapMarkerAlt, blueprint: BlueprintIcon };
 document.querySelectorAll('[data-icon]').forEach((node) => { const Icon = icons[node.dataset.icon]; if (Icon) createRoot(node).render(<Icon aria-hidden="true" />); });
 const animationRoot = document.querySelector('#live-construction-animation');
 if (animationRoot) createRoot(animationRoot).render(<LiveConstructionAnimation />);
