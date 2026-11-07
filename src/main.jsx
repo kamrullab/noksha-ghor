@@ -8,6 +8,16 @@ import { TbRulerMeasure, TbBuildingSkyscraper, TbHomeCog } from 'react-icons/tb'
 import { BsBadge3D } from 'react-icons/bs';
 import { LuClipboardCheck } from 'react-icons/lu';
 
+if ('scrollRestoration' in window.history) window.history.scrollRestoration = 'manual';
+const returnToHomeOnLoad = () => {
+  if (window.location.hash) window.history.replaceState(null, '', window.location.pathname + window.location.search);
+  document.documentElement.style.scrollBehavior = 'auto';
+  window.scrollTo(0, 0);
+  requestAnimationFrame(() => document.documentElement.style.removeProperty('scroll-behavior'));
+};
+returnToHomeOnLoad();
+window.addEventListener('pageshow', () => requestAnimationFrame(returnToHomeOnLoad));
+
 const RoofIcon = () => <svg className="custom-roof-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 31 32 8l26 23"/><path d="M14 28v28h36V28M26 56V39h12v17"/></svg>;
 const BlueprintIcon = () => <svg className="custom-blueprint-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 12h48v40H8zM16 44l10-14 8 8 7-11 9 17M20 20h12M20 25h20"/><circle cx="47" cy="19" r="4"/></svg>;
 const LiveConstructionAnimation = () => (
