@@ -154,3 +154,5 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
 .floating-whatsapp{width:54px;height:54px;display:grid;grid-template-columns:1fr;place-items:center;padding:0;border-radius:50%;column-gap:0}.floating-whatsapp>[data-icon]{grid-row:auto;width:54px;height:54px;border-radius:50%;font-size:27px}.floating-whatsapp b,.floating-whatsapp i{display:none}.floating-whatsapp:after{right:0;top:0;width:10px;height:10px}
 @media(max-width:560px){.floating-whatsapp{width:48px;height:48px}.floating-whatsapp>[data-icon]{width:48px;height:48px;font-size:25px}}
 .floating-whatsapp:after{display:none}
+.floating-whatsapp{width:46px;height:46px}.floating-whatsapp>[data-icon]{width:46px;height:46px;font-size:22px}.floating-whatsapp:before{inset:-5px;border-width:2px}
+@media(max-width:560px){.floating-whatsapp{width:42px;height:42px}.floating-whatsapp>[data-icon]{width:42px;height:42px;font-size:21px}}
