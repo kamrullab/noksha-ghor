@@ -85,3 +85,30 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
 @media(max-width:560px){.hero{min-height:calc(100svh - 64px)}.hero-inner{padding-block:36px}.hero h1{font-size:clamp(48px,16vw,62px)}.brand-mark{width:48px;transform:translateX(72px)}.tagline{margin-block:8px}.service-label{margin-top:12px}.hero-copy{margin-block:10px 14px}.hero-actions{gap:8px}.hero-actions .btn{padding-block:9px}}
 @media(max-height:760px) and (min-width:851px){.hero{height:calc(100svh - 72px);min-height:500px}.hero-inner{padding-block:22px}.brand-mark{width:48px;transform:translateX(100px);margin-bottom:-12px}.eyebrow{margin-bottom:3px}.hero h1{font-size:72px}.tagline{font-size:26px;margin-block:7px}.service-label{margin-top:9px}.service-label span{padding-block:3px;font-size:17px}.hero-copy{margin-block:8px 12px;font-size:15px}.hero-actions .btn{padding-block:8px}}
 @media(max-height:620px) and (min-width:851px){.hero{min-height:440px}.brand-mark{width:40px}.hero h1{font-size:61px}.tagline{font-size:22px}.service-label{margin-top:6px}.hero-copy{margin-block:6px 9px}.hero-actions .btn{padding-block:7px}}
+
+/* Fit every primary section inside a desktop viewport */
+@media(min-width:851px){
+  .services-wrap,.team,.construction,.details-band,.religious-design,.contact{min-height:calc(100svh - 72px);display:flex;align-items:center;padding-block:clamp(36px,6vh,72px)}
+  .services-wrap>.container,.team>.container,.construction>.container,.details-band>.container,.religious-design>.container,.contact>.container{width:min(1150px,calc(100% - 40px))}
+  .section-heading{margin-bottom:clamp(22px,3.5vh,38px)}
+}
+@media(min-width:851px) and (max-height:820px){
+  .services-wrap,.team,.construction,.details-band,.religious-design,.contact{padding-block:28px}
+  .two-column{gap:44px}.service-card{padding-top:38px}.service-card h2,.construction-content h2{font-size:36px;margin-bottom:18px}.service-list{font-size:17px;gap:7px 14px}.service-icon{width:29px;height:29px;flex-basis:29px;font-size:17px}
+  .gallery{height:410px}.hex{width:175px;height:167px}.gallery-center{width:82px;height:82px;left:calc(50% - 41px);top:calc(50% - 41px)}.gallery-center b{font-size:22px}
+  .team{padding-block:26px}.team .section-heading{margin-bottom:22px}.section-heading h2{font-size:35px}.engineer-card{min-height:125px;padding:17px}.engineer-icon{width:58px;height:58px}.engineer-card h3{font-size:21px}.religious-offer{margin-top:18px;padding:12px 20px}.religious-offer>[data-icon]{width:40px;height:40px}.religious-offer b{font-size:34px}
+  .construction-grid{gap:55px}.building-art{height:330px}.construction-content{padding-top:37px}
+  .details-band .section-heading{margin-bottom:22px}.details-grid{gap:14px}.detail-card{padding:20px 18px}.detail-card>[data-icon],.detail-3d{width:42px;height:42px}.detail-card h3{font-size:20px;margin-top:10px}.detail-card p{font-size:15px}
+  .religious-grid{gap:48px}.mosque-visual{height:350px}.mosque-building{height:145px;width:215px;bottom:48px}.minaret{height:220px;bottom:48px}.dome{transform:translateX(-50%) scale(.8);transform-origin:center bottom}.religious-content h2{font-size:38px;margin-block:10px}.religious-content>p{margin-bottom:15px}.religious-services span{padding:6px 10px}.religious-contact{margin-block:16px 12px}.religious-contact a{padding:9px 13px}.religious-address{padding-block:8px}.visual-label{bottom:10px}
+  .contact h2{font-size:42px}.contact-copy>p{margin-block:8px}.phone-grid{margin-block:18px}.phone-card{padding:13px}.phone-card>a{font-size:21px;margin-bottom:7px}.map-wrap iframe{height:310px}
+}
+@media(min-width:851px) and (max-height:680px){
+  .services-wrap,.team,.construction,.details-band,.religious-design,.contact{padding-block:18px;min-height:calc(100svh - 72px)}
+  .section-kicker{margin-top:18px}.service-card h2,.construction-content h2{font-size:31px;margin-bottom:12px}.service-list{font-size:15px;gap:5px 10px}.service-icon{width:25px;height:25px;flex-basis:25px}
+  .gallery{height:330px}.hex{width:145px;height:138px}.gallery-center{width:68px;height:68px;left:calc(50% - 34px);top:calc(50% - 34px)}.gallery-center span{font-size:10px}.gallery-center b{font-size:18px}
+  .section-heading{margin-bottom:13px}.section-heading h2{font-size:29px}.engineer-card{min-height:105px;padding:12px}.engineer-icon{width:46px;height:46px}.engineer-card h3{font-size:18px}.engineer-card p,.credential-list small{font-size:13px}.religious-offer{margin-top:12px;padding:8px 16px}.religious-offer strong{font-size:16px}.religious-offer b{font-size:28px}
+  .building-art{height:280px}.construction-grid{gap:40px}.details-grid{gap:10px}.detail-card{padding:14px}.detail-card>[data-icon],.detail-3d{width:36px;height:36px}.detail-card h3{font-size:18px;margin-block:7px 3px}.detail-card p{font-size:13px}
+  .mosque-visual{height:285px}.mosque-building{transform:translateX(-50%) scale(.8);transform-origin:center bottom}.minaret{transform:scale(.8);transform-origin:center bottom}.religious-content h2{font-size:31px}.religious-content>p{font-size:14px;margin-bottom:10px}.religious-services{gap:5px}.religious-services span{padding:4px 8px;font-size:14px}.religious-contact{margin-block:10px 8px}.religious-contact strong{font-size:17px}.religious-address{font-size:13px}
+  .contact h2{font-size:34px}.phone-grid{margin-block:12px}.phone-card{padding:9px}.map-wrap iframe{height:250px}
+}
+@media(max-width:850px){.services-wrap,.team,.construction,.details-band,.religious-design,.contact{min-height:0;height:auto}}
