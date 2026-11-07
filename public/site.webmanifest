@@ -3,9 +3,9 @@
   "short_name": "নকশা ঘর",
   "description": "কনস্ট্রাকশন এন্ড ইন্টেরিয়র ডিজাইন",
   "lang": "bn-BD",
-  "start_url": "/noksha-ghor/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#075da9",
-  "icons": [{"src": "/noksha-ghor/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+  "icons": [{"src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
 }

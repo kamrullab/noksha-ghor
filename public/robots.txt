@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://kamrullab.github.io/noksha-ghor/sitemap.xml

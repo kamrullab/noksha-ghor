@@ -29,6 +29,9 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+        env:
+          SITE_BASE: /noksha-ghor/
+          SITE_URL: https://kamrullab.github.io/noksha-ghor/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

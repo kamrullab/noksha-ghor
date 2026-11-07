@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,follow" />
   <meta name="theme-color" content="#075da9" />
   <title>পৃষ্ঠা পাওয়া যায়নি | নকশা ঘর</title>
-  <link rel="icon" href="/noksha-ghor/favicon.svg" type="image/svg+xml" />
+  <link id="page-favicon" rel="icon" href="./favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -16,11 +16,17 @@
 </head>
 <body>
   <main class="card">
-    <a class="logo" href="/noksha-ghor/"><img src="/noksha-ghor/favicon.svg" alt="" />নকশা ঘর</a>
+    <a class="logo home-link" href="/"><img id="brand-icon" src="./favicon.svg" alt="" />নকশা ঘর</a>
     <div class="code">404</div>
     <h1>পৃষ্ঠা পাওয়া যায়নি</h1>
     <p>আপনি যে পৃষ্ঠাটি খুঁজছেন সেটি সরানো হয়েছে অথবা ঠিকানাটি সঠিক নয়।</p>
-    <div class="actions"><a class="home" href="/noksha-ghor/">হোম পেজে ফিরুন</a><a class="call" href="tel:+8801830869064">কল: 01830-869064</a><a class="whatsapp" target="_blank" rel="noopener" href="https://wa.me/8801830869064?text=আসসালামু%20আলাইকুম,%20আমি%20নকশা%20ঘরের%20সেবা%20সম্পর্কে%20জানতে%20চাই।"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3A12.8 12.8 0 0 0 5.1 22.5L3.4 29l6.7-1.7A12.9 12.9 0 1 0 16 3Zm0 23.4c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 .9 1-3.8-.3-.4A10.3 10.3 0 1 1 16 26.4Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-1.9-.9-3.2-1.7-4.5-3.9-.3-.6.3-.6.9-1.7.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2 2.2.9 3 .9 4.1.8.7-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.2-.2-.5-.3-.8-.5Z"/></svg>WhatsApp</a></div>
+    <div class="actions"><a class="home home-link" href="/">হোম পেজে ফিরুন</a><a class="call" href="tel:+8801830869064">কল: 01830-869064</a><a class="whatsapp" target="_blank" rel="noopener" href="https://wa.me/8801830869064?text=আসসালামু%20আলাইকুম,%20আমি%20নকশা%20ঘরের%20সেবা%20সম্পর্কে%20জানতে%20চাই।"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3A12.8 12.8 0 0 0 5.1 22.5L3.4 29l6.7-1.7A12.9 12.9 0 1 0 16 3Zm0 23.4c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 .9 1-3.8-.3-.4A10.3 10.3 0 1 1 16 26.4Zm5.7-7.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-1.9-.9-3.2-1.7-4.5-3.9-.3-.6.3-.6.9-1.7.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2 2.2.9 3 .9 4.1.8.7-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.2-.2-.5-.3-.8-.5Z"/></svg>WhatsApp</a></div>
   </main>
+  <script>
+    const deploymentBase = location.hostname.endsWith('github.io') ? '/noksha-ghor/' : '/';
+    document.querySelectorAll('.home-link').forEach((link) => link.href = deploymentBase);
+    document.querySelector('#brand-icon').src = `${deploymentBase}favicon.svg`;
+    document.querySelector('#page-favicon').href = `${deploymentBase}favicon.svg`;
+  </script>
 </body>
 </html>
