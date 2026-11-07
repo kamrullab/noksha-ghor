@@ -149,3 +149,7 @@ img,svg,iframe{max-width:100%}button,a{-webkit-tap-highlight-color:transparent}.
 @keyframes whatsapp-live-glow{0%,100%{filter:drop-shadow(0 0 6px rgba(37,211,102,.5))}50%{filter:drop-shadow(0 0 15px rgba(37,211,102,.9));box-shadow:0 0 0 3px #fff,0 0 34px 11px rgba(37,211,102,.68),0 14px 34px rgba(0,0,0,.3)}}@keyframes whatsapp-live-ring{0%{transform:scale(.96);opacity:.85}100%{transform:scale(1.14);opacity:0}}@keyframes whatsapp-live-dot{50%{opacity:.25;transform:scale(.7)}}
 @media(max-width:560px){.floating-whatsapp:after{right:1px;top:1px;width:9px;height:9px}}
 @media(prefers-reduced-motion:reduce){.floating-whatsapp{animation:none;filter:drop-shadow(0 0 10px rgba(37,211,102,.7))}.floating-whatsapp:before,.floating-whatsapp:after{animation:none}.floating-whatsapp:before{opacity:.65}}
+
+/* Floating WhatsApp uses icon only */
+.floating-whatsapp{width:54px;height:54px;display:grid;grid-template-columns:1fr;place-items:center;padding:0;border-radius:50%;column-gap:0}.floating-whatsapp>[data-icon]{grid-row:auto;width:54px;height:54px;border-radius:50%;font-size:27px}.floating-whatsapp b,.floating-whatsapp i{display:none}.floating-whatsapp:after{right:0;top:0;width:10px;height:10px}
+@media(max-width:560px){.floating-whatsapp{width:48px;height:48px}.floating-whatsapp>[data-icon]{width:48px;height:48px;font-size:25px}}
