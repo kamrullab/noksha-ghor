@@ -204,3 +204,25 @@ html,body{width:100%;max-width:100%;overflow-x:hidden}body{min-width:0}header,ma
   footer small{display:block;margin:0!important}
   .footer-meta{display:flex!important;gap:2px 5px;font-size:10px!important;line-height:1.25!important}
 }
+
+/* Interactive phone and WhatsApp contact states */
+.nav-call,.phone-card>a,.phone-card>div a,.religious-contact a,.mobile-actions a,.floating-whatsapp{transition:transform .22s ease,background-color .22s ease,color .22s ease,box-shadow .22s ease,border-color .22s ease,filter .22s ease}
+.phone-card{transition:transform .22s ease,box-shadow .22s ease}.phone-card>div a{border:1px solid transparent}.phone-card>div a:last-child{border-color:rgba(20,156,77,.15)}
+@media(hover:hover){
+  .nav-call:hover{transform:translateY(-2px);background:#c53637;box-shadow:0 8px 18px rgba(172,43,44,.3)}
+  .phone-card:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(3,31,78,.2)}
+  .phone-card>a:hover{color:var(--red);transform:translateX(3px)}
+  .phone-card>a:hover [data-icon]{animation:contact-phone-ring .55s ease-in-out}
+  .phone-card>div a:first-child:hover{background:var(--blue);color:#fff;box-shadow:0 7px 16px rgba(7,93,169,.28);transform:translateY(-2px)}
+  .phone-card>div a:last-child:hover{background:#149c4d;color:#fff;border-color:#149c4d;box-shadow:0 7px 18px rgba(20,156,77,.32);transform:translateY(-2px)}
+  .phone-card>div a:last-child:hover [data-icon],.mobile-actions a:last-child:hover [data-icon]{animation:contact-whatsapp-pop .55s ease}
+  .religious-contact a:hover{transform:translateY(-3px);box-shadow:0 12px 25px rgba(0,0,0,.22)}
+  .religious-contact a:hover i{animation:contact-phone-ring .55s ease-in-out}
+  .mobile-actions a:hover{filter:brightness(1.12)}
+  .floating-whatsapp:hover{transform:translateY(-4px) scale(1.08);filter:drop-shadow(0 0 12px rgba(37,211,102,.82))}
+}
+.nav-call:focus-visible,.phone-card a:focus-visible,.religious-contact a:focus-visible,.mobile-actions a:focus-visible,.floating-whatsapp:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.phone-card>div a:active,.nav-call:active,.religious-contact a:active,.mobile-actions a:active,.floating-whatsapp:active{transform:scale(.96)}
+@keyframes contact-phone-ring{0%,100%{transform:rotate(0)}20%{transform:rotate(-16deg)}40%{transform:rotate(14deg)}60%{transform:rotate(-10deg)}80%{transform:rotate(7deg)}}
+@keyframes contact-whatsapp-pop{0%,100%{transform:scale(1)}45%{transform:scale(1.28) rotate(-8deg)}70%{transform:scale(.94)}}
+@media(prefers-reduced-motion:reduce){.nav-call,.phone-card,.phone-card>a,.phone-card>div a,.religious-contact a,.mobile-actions a,.floating-whatsapp{transition:none}.phone-card [data-icon],.religious-contact i,.mobile-actions [data-icon]{animation:none!important}}
