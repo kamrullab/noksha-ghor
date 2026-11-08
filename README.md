@@ -1,6 +1,6 @@
 <div align="center">
 
-![Noksha Ghor](public/og-image.jpg)
+<img src="public/og-image.jpg" alt="Noksha Ghor website preview" width="100%">
 
 # 🏠 Noksha Ghor
 
@@ -8,11 +8,11 @@
 
 **Trusted Planning • Precise Execution**
 
-[![Live Website](https://img.shields.io/badge/Live_Website-Visit_Now-0B63AC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kamrullab.github.io/noksha-ghor/)
-[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-Ready-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Live Website](https://img.shields.io/badge/Live-Visit_Website-0B63AC?style=flat-square&logo=googlechrome&logoColor=white)](https://kamrullab.github.io/noksha-ghor/)
+[![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-Ready-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
 [🌐 Live Demo](https://kamrullab.github.io/noksha-ghor/) · [📞 Call Now](tel:+8801830869064) · [💬 WhatsApp](https://wa.me/8801830869064)
 
@@ -26,20 +26,18 @@ The website is fully responsive across phones, tablets, laptops, and large deskt
 
 ## 🎯 Key Features
 
-| Category | Highlights |
-|:---|:---|
-| 🎨 Visual Design | Flyer-inspired Bengali interface, brand colors, and decorative shapes |
-| 📱 Responsive UI | Optimized for mobile, tablet, laptop, and large desktop screens |
-| 🏗️ Service Showcase | Interior, construction, design, and supervision services |
-| 🖼️ Project Gallery | Hexagonal project frames, hover effects, and motion animation |
-| 🕌 Religious Structures | A dedicated section for mosque, madrasa, and religious projects |
-| 👷 Engineer Profiles | Engineer information and professional qualifications |
-| 📞 Direct Contact | Click-to-call access with the Owner and CEO as primary contact |
-| 💬 WhatsApp | Floating quick contact button and a mobile action bar |
-| 📍 Location | Embedded Google Maps and complete office address |
-| ♿ Accessibility | Semantic structure, accessible navigation, and reduced-motion support |
-| 🔍 SEO | Metadata, canonical URLs, Open Graph, structured data, sitemap, and robots |
-| 🚀 Deployment | Compatible with GitHub Pages, Cloudflare Pages, and Vercel |
+- 🎨 **Visual Design:** Flyer-inspired Bengali interface with brand colors and decorative shapes
+- 📱 **Responsive UI:** Optimized for mobile, tablet, laptop, and large desktop screens
+- 🏗️ **Service Showcase:** Interior, construction, design, and supervision services
+- 🖼️ **Project Gallery:** Hexagonal project frames, hover effects, and motion animation
+- 🕌 **Religious Structures:** A dedicated section for mosque, madrasa, and religious projects
+- 👷 **Engineer Profiles:** Engineer information and professional qualifications
+- 📞 **Direct Contact:** Click-to-call access with the Owner and CEO as primary contact
+- 💬 **WhatsApp:** Floating quick contact button and a mobile action bar
+- 📍 **Location:** Embedded Google Maps and complete office address
+- ♿ **Accessibility:** Semantic structure, accessible navigation, and reduced-motion support
+- 🔍 **SEO:** Metadata, canonical URLs, Open Graph, structured data, sitemap, and robots
+- 🚀 **Deployment:** Compatible with GitHub Pages, Cloudflare Pages, and Vercel
 
 ## 🛠️ Services
 
@@ -80,23 +78,28 @@ Complete planning support for mosques, madrasas, and other religious structures,
 
 ## 📂 Project Structure
 
+<details>
+<summary><strong>View the project file structure</strong></summary>
+
 ```text
 noksha-ghor/
-├── .github/workflows/       # GitHub Pages deployment
+├── .github/workflows/
 ├── public/
-│   ├── 404.html             # Portable custom error page
-│   ├── _headers             # Cloudflare security and cache headers
-│   ├── favicon.svg          # Website icon
-│   ├── og-image.jpg         # Social sharing image
-│   └── site.webmanifest     # PWA and mobile metadata
+│   ├── 404.html
+│   ├── _headers
+│   ├── favicon.svg
+│   ├── og-image.jpg
+│   └── site.webmanifest
 ├── src/
-│   ├── main.jsx             # React components and website content
-│   └── style.css            # Responsive design and animations
-├── index.html               # SEO metadata and application entry
-├── vercel.json              # Vercel deployment configuration
-├── vite.config.js           # Portable base URL and SEO generation
-└── package.json             # Scripts and dependencies
+│   ├── main.jsx
+│   └── style.css
+├── index.html
+├── vercel.json
+├── vite.config.js
+└── package.json
 ```
+
+</details>
 
 ## 🚀 Local Development
 
@@ -129,12 +132,10 @@ The same codebase is prepared for GitHub Pages, Cloudflare Pages, and Vercel. Th
 
 ### 🟠 Cloudflare Pages
 
-| Setting | Value |
-|:---|:---|
-| Framework preset | `Vite` |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Node.js version | `22` |
+- **Framework preset:** `Vite`
+- **Build command:** `npm run build`
+- **Build output:** `dist`
+- **Node.js version:** `22`
 
 Cloudflare's `CF_PAGES_URL` is detected automatically to generate the canonical URL, sitemap, and robots output. No additional base-path variable is required.
 
@@ -173,12 +174,17 @@ SITE_URL=https://www.example.com/
 
 ## 📞 Contact
 
-| Contact | Details |
-|:---|:---|
-| **Primary Contact, Owner/CEO** | [01830-869064](tel:+8801830869064) |
-| **WhatsApp** | [Chat with the Owner/CEO](https://wa.me/8801830869064) |
-| **Alternative Contact** | [01860-862800](tel:+8801860862800) |
-| **Office Address** | Alia Madrasa Market, 2nd Floor, Room 257, Mizan Road, Feni, Bangladesh |
+**Primary Contact, Owner/CEO**<br>
+[01830-869064](tel:+8801830869064)
+
+**WhatsApp**<br>
+[Chat with the Owner/CEO](https://wa.me/8801830869064)
+
+**Alternative Contact**<br>
+[01860-862800](tel:+8801860862800)
+
+**Office Address**<br>
+Alia Madrasa Market, 2nd Floor, Room 257, Mizan Road, Feni, Bangladesh
 
 ## 👨‍💻 Maintainer
 
