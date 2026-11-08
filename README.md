@@ -1,12 +1,12 @@
 <div align="center">
 
-![নকশা ঘর](public/og-image.jpg)
+![Noksha Ghor](public/og-image.jpg)
 
-# 🏠 নকশা ঘর
+# 🏠 Noksha Ghor
 
-### কনস্ট্রাকশন এন্ড ইন্টেরিয়র ডিজাইন
+### Construction and Interior Design
 
-**বিশ্বস্ত পরিকল্পনা • নিখুঁত বাস্তবায়ন**
+**Trusted Planning • Precise Execution**
 
 [![Live Website](https://img.shields.io/badge/Live_Website-Visit_Now-0B63AC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kamrullab.github.io/noksha-ghor/)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -14,61 +14,61 @@
 [![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-Ready-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[🌐 লাইভ ডেমো](https://kamrullab.github.io/noksha-ghor/) · [📞 কল করুন](tel:+8801830869064) · [💬 WhatsApp](https://wa.me/8801830869064)
+[🌐 Live Demo](https://kamrullab.github.io/noksha-ghor/) · [📞 Call Now](tel:+8801830869064) · [💬 WhatsApp](https://wa.me/8801830869064)
 
 </div>
 
-## ✨ প্রজেক্ট সম্পর্কে
+## ✨ About the Project
 
-**নকশা ঘর** ফেনীভিত্তিক কনস্ট্রাকশন ও ইন্টেরিয়র ডিজাইন প্রতিষ্ঠানের জন্য নির্মিত একটি আধুনিক Bengali business website। প্রতিষ্ঠানের মূল flyer-এর নীল, সাদা, লাল ও হলুদ visual identity অনুসরণ করে সম্পূর্ণ interface-টি React component, CSS shape, custom animation এবং editable content দিয়ে তৈরি করা হয়েছে।
+**Noksha Ghor** is a modern business website created for a construction and interior design company based in Feni, Bangladesh. Its visual identity follows the original printed flyer, including the blue, white, red, and yellow color palette. The interface is rebuilt with editable React components, CSS shapes, custom animations, and accessible content.
 
-ওয়েবসাইটটি mobile, tablet, laptop ও large desktop screen-এর জন্য responsive। দর্শক সরাসরি সেবা দেখতে, project gallery ঘুরে দেখতে, engineer profile জানতে, ফোন করতে, WhatsApp-এ যোগাযোগ করতে এবং Google Maps থেকে অফিসের অবস্থান পেতে পারবেন।
+The website is fully responsive across phones, tablets, laptops, and large desktop displays. Visitors can explore services and project work, review engineer profiles, call the business, start a WhatsApp conversation, and find the office through Google Maps.
 
-## 🎯 প্রধান বৈশিষ্ট্য
+## 🎯 Key Features
 
-| বিভাগ | সুবিধা |
+| Category | Highlights |
 |:---|:---|
-| 🎨 ডিজাইন | Flyer-inspired Bengali layout, brand colors ও decorative shapes |
-| 📱 Responsive UI | Mobile, tablet, laptop এবং large desktop support |
-| 🏗️ Service Showcase | Interior, construction, design ও supervision services |
-| 🖼️ Project Gallery | Hexagonal frames, hover effects ও motion animation |
-| 🕌 ধর্মীয় স্থাপনা | মসজিদ, মাদ্রাসা ও ধর্মীয় কাঠামোর বিশেষ design section |
-| 👷 Engineer Profiles | Engineer পরিচিতি ও professional qualification |
-| 📞 Direct Contact | Click-to-call এবং primary Owner/CEO contact |
-| 💬 WhatsApp | Floating quick contact ও mobile action button |
-| 📍 Location | Embedded Google Maps ও সম্পূর্ণ অফিস ঠিকানা |
-| ♿ Accessibility | Semantic structure, accessible navigation ও reduced motion support |
-| 🔍 SEO | Metadata, canonical URL, Open Graph, structured data, sitemap ও robots |
-| 🚀 Deployment | GitHub Pages, Cloudflare Pages ও Vercel compatible |
+| 🎨 Visual Design | Flyer-inspired Bengali interface, brand colors, and decorative shapes |
+| 📱 Responsive UI | Optimized for mobile, tablet, laptop, and large desktop screens |
+| 🏗️ Service Showcase | Interior, construction, design, and supervision services |
+| 🖼️ Project Gallery | Hexagonal project frames, hover effects, and motion animation |
+| 🕌 Religious Structures | A dedicated section for mosque, madrasa, and religious projects |
+| 👷 Engineer Profiles | Engineer information and professional qualifications |
+| 📞 Direct Contact | Click-to-call access with the Owner and CEO as primary contact |
+| 💬 WhatsApp | Floating quick contact button and a mobile action bar |
+| 📍 Location | Embedded Google Maps and complete office address |
+| ♿ Accessibility | Semantic structure, accessible navigation, and reduced-motion support |
+| 🔍 SEO | Metadata, canonical URLs, Open Graph, structured data, sitemap, and robots |
+| 🚀 Deployment | Compatible with GitHub Pages, Cloudflare Pages, and Vercel |
 
-## 🛠️ সেবাসমূহ
+## 🛠️ Services
 
-### 🛋️ ইন্টেরিয়র ওয়ার্ক
+### 🛋️ Interior Work
 
-- ইন্টেরিয়র ডিজাইন
-- ইন্টেরিয়র ডিটেইলস ওয়ার্ক
-- ওয়ার্ক উইথ ইন্সট্রুমেন্ট
-- সাইট সুপারভিশন
-- কনসালটেন্ট
-- মেজারমেন্ট
-- 3D ভিউ
+- Interior design
+- Detailed interior work
+- Instrument-based work
+- Site supervision
+- Consultancy
+- Measurement
+- 3D visualization
 
-### 🏢 কনস্ট্রাকশন ওয়ার্ক
+### 🏢 Construction Work
 
-- স্ট্রাকচারাল ডিজাইন
-- আর্কিটেকচার ডিজাইন
-- ইলেকট্রিক্যাল ডিজাইন
-- প্লাম্বিং ডিজাইন
-- ডিজিটাল সার্ভে
-- 3D ভিউ
-- সয়েল টেস্ট
-- এস্টিমেট
+- Structural design
+- Architectural design
+- Electrical design
+- Plumbing design
+- Digital survey
+- 3D visualization
+- Soil testing
+- Project estimation
 
-### 🕌 বিশেষ সেবা
+### 🕌 Specialized Religious Structure Design
 
-মসজিদ, মাদ্রাসা এবং সকল ধর্মীয় কাঠামোর জন্য architectural, structural, electrical ও plumbing design সহ পূর্ণাঙ্গ পরিকল্পনা সহায়তা।
+Complete planning support for mosques, madrasas, and other religious structures, including architectural, structural, electrical, and plumbing design.
 
-## ⚙️ প্রযুক্তি
+## ⚙️ Technology Stack
 
 - **React 19** for reusable UI components
 - **Vite 7** for development and optimized production build
@@ -78,7 +78,7 @@
 - **Schema.org JSON-LD** for local business structured data
 - **GitHub Actions** for automated GitHub Pages deployment
 
-## 📂 প্রজেক্ট স্ট্রাকচার
+## 📂 Project Structure
 
 ```text
 noksha-ghor/
@@ -100,12 +100,12 @@ noksha-ghor/
 
 ## 🚀 Local Development
 
-### প্রয়োজনীয় সফটওয়্যার
+### Requirements
 
 - Node.js 22 or newer
 - npm
 
-### চালু করার নিয়ম
+### Installation
 
 ```bash
 git clone https://github.com/kamrullab/noksha-ghor.git
@@ -121,11 +121,11 @@ npm run build
 npm run preview
 ```
 
-Final optimized files `dist` directory-তে তৈরি হবে।
+The optimized production files are generated in the `dist` directory.
 
 ## ☁️ Deployment
 
-একই codebase GitHub Pages, Cloudflare Pages ও Vercel-এ কাজ করার জন্য প্রস্তুত। Vite configuration deployment platform অনুযায়ী base path ও canonical URL নির্ধারণ করে।
+The same codebase is prepared for GitHub Pages, Cloudflare Pages, and Vercel. The Vite configuration selects the correct base path and canonical URL for each deployment platform.
 
 ### 🟠 Cloudflare Pages
 
@@ -136,15 +136,15 @@ Final optimized files `dist` directory-তে তৈরি হবে।
 | Build output directory | `dist` |
 | Node.js version | `22` |
 
-Cloudflare-এর `CF_PAGES_URL` automatically ব্যবহার করে canonical URL, sitemap এবং robots output তৈরি হয়। অতিরিক্ত base path variable প্রয়োজন নেই।
+Cloudflare's `CF_PAGES_URL` is detected automatically to generate the canonical URL, sitemap, and robots output. No additional base-path variable is required.
 
 ### ▲ Vercel
 
-GitHub repository import করে deploy করুন। Included `vercel.json` build command ও output directory configure করে। Production SEO URL-এর জন্য Vercel environment automatically detected হয়।
+Import the GitHub repository into Vercel and deploy it. The included `vercel.json` configures the build command and output directory. The Vercel production environment is detected automatically for SEO URLs.
 
 ### 🐙 GitHub Pages
 
-`main` branch-এ push হলে GitHub Actions automatically build ও deploy করে। Workflow নিচের values ব্যবহার করে:
+A push to the `main` branch automatically builds and deploys the website through GitHub Actions. The workflow uses these production values:
 
 ```text
 SITE_BASE=/noksha-ghor/
@@ -153,32 +153,32 @@ SITE_URL=https://kamrullab.github.io/noksha-ghor/
 
 ### 🌍 Custom domain
 
-Build environment-এ পূর্ণ production URL দিন:
+Set the complete production URL in the build environment:
 
 ```text
 SITE_URL=https://www.example.com/
 ```
 
-## 🔎 SEO ও Performance
+## 🔎 SEO and Performance
 
-- Bengali title, description ও keyword metadata
+- Bengali title, description, and keyword metadata
 - Correct canonical URL for each deployment
-- Open Graph ও Twitter Card preview
+- Open Graph and Twitter Card previews
 - LocalBusiness structured data
-- Automatically generated `sitemap.xml` ও `robots.txt`
+- Automatically generated `sitemap.xml` and `robots.txt`
 - Semantic heading hierarchy
-- Responsive image handling ও production asset minification
-- Accessible labels ও keyboard-friendly navigation
+- Responsive image handling and production asset minification
+- Accessible labels and keyboard-friendly navigation
 - `prefers-reduced-motion` support
 
-## 📞 যোগাযোগ
+## 📞 Contact
 
-| যোগাযোগ | তথ্য |
+| Contact | Details |
 |:---|:---|
-| **প্রধান যোগাযোগ, Owner/CEO** | [01830-869064](tel:+8801830869064) |
-| **WhatsApp** | [Owner/CEO-এর সাথে কথা বলুন](https://wa.me/8801830869064) |
-| **বিকল্প যোগাযোগ** | [01860-862800](tel:+8801860862800) |
-| **ঠিকানা** | আলিয়া মাদ্রাসা মার্কেট, ২য় তলা, রুম নং ২৫৭, মিজান রোড, ফেনী |
+| **Primary Contact, Owner/CEO** | [01830-869064](tel:+8801830869064) |
+| **WhatsApp** | [Chat with the Owner/CEO](https://wa.me/8801830869064) |
+| **Alternative Contact** | [01860-862800](tel:+8801860862800) |
+| **Office Address** | Alia Madrasa Market, 2nd Floor, Room 257, Mizan Road, Feni, Bangladesh |
 
 ## 👨‍💻 Maintainer
 
@@ -186,18 +186,18 @@ Developed and maintained by [**kamrullab**](https://github.com/kamrullab).
 
 ## 🤝 Contribution
 
-Bug report, improvement idea বা content correction-এর জন্য GitHub Issue খুলুন। Code contribution করতে repository fork করে নতুন branch-এ পরিবর্তন করুন এবং Pull Request পাঠান।
+Open a GitHub Issue for bug reports, improvement ideas, or content corrections. For code contributions, fork the repository, create a focused branch, and submit a Pull Request.
 
 ## 📄 License
 
-এই repository-এর design, branding ও business content **নকশা ঘর**-এর জন্য সংরক্ষিত। অনুমতি ছাড়া commercial reuse করা যাবে না।
+The design, branding, and business content in this repository are reserved for **Noksha Ghor**. Commercial reuse is not permitted without authorization.
 
 <div align="center">
 
-### ❤️ নকশা ঘর
+### ❤️ Noksha Ghor
 
-**আপনার স্বপ্নের ঘর, পরিকল্পনা থেকে নির্মাণ ও আধুনিক ইন্টেরিয়র পর্যন্ত এক ছাদের নিচে।**
+**Your dream space, from planning and construction to modern interior design, all under one roof.**
 
-[⬆️ উপরে ফিরে যান](#-নকশা-ঘর)
+[⬆️ Back to Top](#-noksha-ghor)
 
 </div>
