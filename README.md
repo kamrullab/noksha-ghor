@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="public/og-image.jpg" alt="Noksha Ghor website preview" width="100%">
+<a href="https://nokshaghor.pages.dev/">
+  <img src="https://nokshaghor.pages.dev/og-image.jpg?v=20261108-1" alt="Noksha Ghor construction and interior design website preview" width="1200">
+</a>
 
 # 🏠 Noksha Ghor
 
