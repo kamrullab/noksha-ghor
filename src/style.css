@@ -226,3 +226,17 @@ html,body{width:100%;max-width:100%;overflow-x:hidden}body{min-width:0}header,ma
 @keyframes contact-phone-ring{0%,100%{transform:rotate(0)}20%{transform:rotate(-16deg)}40%{transform:rotate(14deg)}60%{transform:rotate(-10deg)}80%{transform:rotate(7deg)}}
 @keyframes contact-whatsapp-pop{0%,100%{transform:scale(1)}45%{transform:scale(1.28) rotate(-8deg)}70%{transform:scale(.94)}}
 @media(prefers-reduced-motion:reduce){.nav-call,.phone-card,.phone-card>a,.phone-card>div a,.religious-contact a,.mobile-actions a,.floating-whatsapp{transition:none}.phone-card [data-icon],.religious-contact i,.mobile-actions [data-icon]{animation:none!important}}
+
+/* Touch feedback replaces hover on phones and tablets */
+@media(hover:none),(pointer:coarse){
+  .phone-card>a,.phone-card>div a,.religious-contact a,.mobile-actions a,.floating-whatsapp{touch-action:manipulation;-webkit-tap-highlight-color:rgba(245,189,24,.22)}
+  .phone-card>div a:first-child:active{background:var(--blue);color:#fff;box-shadow:0 5px 13px rgba(7,93,169,.3)}
+  .phone-card>div a:last-child:active{background:#149c4d;color:#fff;border-color:#149c4d;box-shadow:0 5px 15px rgba(20,156,77,.35)}
+  .phone-card>a:active{color:var(--red);background:#fff3f3;border-radius:7px}
+  .phone-card>a:active [data-icon],.religious-contact a:active i,.mobile-actions a:first-child:active [data-icon]{animation:contact-phone-ring .55s ease-in-out}
+  .phone-card>div a:last-child:active [data-icon],.mobile-actions a:last-child:active [data-icon],.floating-whatsapp:active [data-icon]{animation:contact-whatsapp-pop .55s ease}
+  .mobile-actions a:active{filter:brightness(1.2);transform:scale(.97)}
+  .mobile-actions a:last-child{animation:mobile-whatsapp-attention 2.6s ease-in-out infinite}
+}
+@keyframes mobile-whatsapp-attention{0%,100%{box-shadow:inset 0 0 0 0 rgba(255,255,255,0)}50%{box-shadow:inset 0 0 20px rgba(255,255,255,.2)}}
+@media(prefers-reduced-motion:reduce){.mobile-actions a:last-child{animation:none!important}}
