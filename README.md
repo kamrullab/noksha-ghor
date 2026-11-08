@@ -14,7 +14,7 @@
 [![Cloudflare](https://img.shields.io/badge/Cloudflare-Ready-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[🌐 Live Demo](https://kamrullab.github.io/noksha-ghor/) · [📞 Call Now](tel:+8801830869064) · [💬 WhatsApp](https://wa.me/8801830869064)
+[🌐 View Live Website](https://kamrullab.github.io/noksha-ghor/)
 
 </div>
 
@@ -171,20 +171,6 @@ SITE_URL=https://www.example.com/
 - Responsive image handling and production asset minification
 - Accessible labels and keyboard-friendly navigation
 - `prefers-reduced-motion` support
-
-## 📞 Contact
-
-**Primary Contact, Owner/CEO**<br>
-[01830-869064](tel:+8801830869064)
-
-**WhatsApp**<br>
-[Chat with the Owner/CEO](https://wa.me/8801830869064)
-
-**Alternative Contact**<br>
-[01860-862800](tel:+8801860862800)
-
-**Office Address**<br>
-Alia Madrasa Market, 2nd Floor, Room 257, Mizan Road, Feni, Bangladesh
 
 ## 👨‍💻 Maintainer
 
