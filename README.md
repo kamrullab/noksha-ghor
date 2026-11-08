@@ -137,7 +137,7 @@ The same codebase is prepared for GitHub Pages, Cloudflare Pages, and Vercel. Th
 - **Build output:** `dist`
 - **Node.js version:** `22`
 
-The production domain `https://nokshaghor.pages.dev/` is the canonical SEO source for every deployment. Set `SITE_URL` only when moving to a future custom domain.
+The production domain `https://nokshaghor.pages.dev/` is the canonical SEO source for every deployment. Set `CANONICAL_URL` only when moving to a future custom domain.
 
 ### ▲ Vercel
 
@@ -149,7 +149,7 @@ A push to the `main` branch automatically builds and deploys the website through
 
 ```text
 SITE_BASE=/noksha-ghor/
-SITE_URL=https://nokshaghor.pages.dev/
+CANONICAL_URL=https://nokshaghor.pages.dev/
 ```
 
 ### 🌍 Custom domain
@@ -157,7 +157,7 @@ SITE_URL=https://nokshaghor.pages.dev/
 Set the complete production URL in the build environment:
 
 ```text
-SITE_URL=https://www.example.com/
+CANONICAL_URL=https://www.example.com/
 ```
 
 ## 🔎 SEO and Performance

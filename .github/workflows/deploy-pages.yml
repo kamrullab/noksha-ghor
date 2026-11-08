@@ -31,7 +31,7 @@ jobs:
         run: npm run build
         env:
           SITE_BASE: /noksha-ghor/
-          SITE_URL: https://nokshaghor.pages.dev/
+          CANONICAL_URL: https://nokshaghor.pages.dev/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
