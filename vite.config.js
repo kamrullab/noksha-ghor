@@ -4,10 +4,7 @@ import react from '@vitejs/plugin-react';
 const ensureTrailingSlash = (value) => value.endsWith('/') ? value : `${value}/`;
 const githubBuild = process.env.GITHUB_ACTIONS === 'true';
 const base = process.env.SITE_BASE || (githubBuild ? '/noksha-ghor/' : '/');
-const platformUrl = process.env.SITE_URL
-  || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : '')
-  || process.env.CF_PAGES_URL
-  || 'https://kamrullab.github.io/noksha-ghor/';
+const platformUrl = process.env.SITE_URL || 'https://nokshaghor.pages.dev/';
 const siteUrl = ensureTrailingSlash(platformUrl);
 
 const portableSeo = {

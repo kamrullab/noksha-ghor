@@ -8,13 +8,13 @@
 
 **Trusted Planning • Precise Execution**
 
-[![Live Website](https://img.shields.io/badge/Live-Visit_Website-0B63AC?style=flat-square&logo=googlechrome&logoColor=white)](https://kamrullab.github.io/noksha-ghor/)
+[![Live Website](https://img.shields.io/badge/Live-Visit_Website-0B63AC?style=flat-square&logo=googlechrome&logoColor=white)](https://nokshaghor.pages.dev/)
 [![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
 [![Cloudflare](https://img.shields.io/badge/Cloudflare-Ready-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)](https://pages.cloudflare.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Ready-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[🌐 View Live Website](https://kamrullab.github.io/noksha-ghor/)
+[🌐 View Live Website](https://nokshaghor.pages.dev/)
 
 </div>
 
@@ -137,7 +137,7 @@ The same codebase is prepared for GitHub Pages, Cloudflare Pages, and Vercel. Th
 - **Build output:** `dist`
 - **Node.js version:** `22`
 
-Cloudflare's `CF_PAGES_URL` is detected automatically to generate the canonical URL, sitemap, and robots output. No additional base-path variable is required.
+The production domain `https://nokshaghor.pages.dev/` is the canonical SEO source for every deployment. Set `SITE_URL` only when moving to a future custom domain.
 
 ### ▲ Vercel
 
@@ -149,7 +149,7 @@ A push to the `main` branch automatically builds and deploys the website through
 
 ```text
 SITE_BASE=/noksha-ghor/
-SITE_URL=https://kamrullab.github.io/noksha-ghor/
+SITE_URL=https://nokshaghor.pages.dev/
 ```
 
 ### 🌍 Custom domain
