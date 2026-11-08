@@ -185,3 +185,19 @@ html,body{width:100%;max-width:100%;overflow-x:hidden}body{min-width:0}header,ma
 /* Center mobile contact details and keep the footer compact */
 @media(max-width:560px){.contact{padding-top:46px;padding-bottom:34px}.contact-copy{text-align:center}.contact-copy>p{padding-inline:5px}.phone-grid{width:100%;gap:12px;margin:20px auto}.phone-card{text-align:center;padding:16px 12px}.phone-card small{text-align:center}.phone-card>a{justify-content:center;font-size:21px}.phone-card>div{justify-content:center}.phone-card>div a{justify-content:center;min-width:76px}.contact address{text-align:center;border-left:0;border-top:3px solid var(--yellow);padding:11px 8px 0}.contact address span{justify-content:center}.office-hours{justify-content:center;text-align:center;padding:11px}.office-hours div{justify-items:center}.hours-icon{width:38px;height:38px;flex-basis:38px;font-size:23px}footer{padding:10px 0 calc(60px + env(safe-area-inset-bottom,0px))}.footer-logo{font-size:19px}.footer-logo+p{margin:1px 0 4px;font-size:12px;line-height:1.25}footer small{font-size:11px;line-height:1.2}}
 @media(max-width:360px){.phone-card{padding:14px 9px}.phone-card>a{font-size:19px}.phone-card>div a{min-width:70px;padding-inline:7px}.office-hours{flex-direction:column;gap:7px}footer{padding-top:8px}.footer-logo{font-size:18px}}
+
+/* Keep the mobile footer content-sized. The fixed action bar supplies its own safe area. */
+@media(max-width:560px){
+  footer{
+    min-height:0!important;
+    height:auto!important;
+    padding:8px 0 10px!important;
+  }
+  footer .container{
+    min-height:0!important;
+    padding-block:0!important;
+  }
+  .footer-logo{margin:0!important;line-height:1.15}
+  .footer-logo+p{margin:2px 0 3px!important}
+  footer small{display:block;margin:0!important}
+}
